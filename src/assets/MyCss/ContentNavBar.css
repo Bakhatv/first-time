@@ -1,0 +1,83 @@
+.content-top-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.categories {
+    flex: 1 1;
+    max-width: 80%;
+    overflow: auto;
+}
+
+.categories ul {
+    display: flex;
+}
+
+.categories ul li {
+    background-color: #f9f9f9;
+    padding: 13px 30px;
+    border-radius: 30px;
+    margin-right: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color .1s ease-in-out;
+}
+
+.categories ul li:hover {
+    background-color: #f4f4f4;
+}
+
+.categories ul li.active {
+    background-color: #282828;
+    color: #fff;
+}
+
+.sort-label b {
+  margin-right: 8px;
+}
+
+.sort-label img  {
+    margin-right: 8px;
+}
+
+.sort-label span {
+    color: #fe5f1e;
+    border-bottom: 1px dashed #fe5f1e;
+    cursor: pointer;
+}
+
+.sort-options {
+    position: absolute;
+    right: 0;
+    margin-top: 15px;
+    background: #fff;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 9%);
+    border-radius: 10px;
+    padding: 10px 0;
+    width: 160px;
+}
+
+.sort-options ul {
+  overflow: hidden;
+}
+
+.sort-options ul li {
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+.sort-options ul li:hover {
+  background: rgba(254,95,30,.05);
+}
+
+.sort-options ul li.active {
+    font-weight: 700;
+    color: #fe5f1e;
+    background: rgba(254,95,30,.05);
+}
+
+.hide {
+  display: none;
+}

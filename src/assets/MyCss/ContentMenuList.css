@@ -1,0 +1,140 @@
+.pizza-block {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.pizza-menu-image {
+    width: 260px;
+}
+
+.content-pizza-menu {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 3vw;
+}
+
+.content-pizza-menu-title {
+    margin: 35px 0;
+}
+
+.content {
+    padding: 40px 0px;
+}
+
+.pizza-name {
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 1%;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 30px;
+}
+
+.selector {
+    display: flex;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 6px;
+}
+
+.selector ul:first-of-type {
+    margin-bottom: 6px;
+}
+
+.selector ul {
+    display: flex;
+    flex: 1 1;
+}
+
+.selector ul li {
+    padding: 8px;
+    flex: 1 1;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.selector ul li.active {
+    background: #fff;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 4%);
+    border-radius: 5px;
+    cursor: auto;
+}
+
+.selector ul li.disabled {
+    opacity: .4;
+    pointer-events: none;
+}
+
+.price-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    letter-spacing: .015em;
+}
+
+.sort {
+    margin-left: 20px;
+    position: relative;
+}
+
+.add-to-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-color: #fe5f1e;
+    border-radius: 30px;
+    padding: 7px 20px;
+    min-width: 100px;
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+    background-color: #fe5f1e;
+}
+
+.add-to-cart:hover span {
+    color: #fff;
+}
+
+.add-to-cart span {
+    font-weight: 600;
+    font-size: 16px;
+    color: #fe5f1e;
+}
+
+.add-to-cart i {
+    display: inline-block;
+    border-radius: 30px;
+    background-color: #fe5f1e;
+    color: #fff;
+    font-weight: 600;
+    width: 22px;
+    height: 22px;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 22px;
+    position: relative;
+    top: -1px;
+    left: 3px;
+}
+
+.add-to-cart:hover i{
+    background-color: #fff;
+    color: #fe5f1e
+}
